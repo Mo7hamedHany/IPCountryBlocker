@@ -164,25 +164,18 @@ IPCountryBlocker/
 │       ├── IpLookupService.cs
 │       └── BlockCheckingService.cs
 │
-├── 🌐 IPCountryBlocker.API/
-│   ├── Controllers/               # REST API endpoints
-│   │   ├── CountriesController.cs
-│   │   ├── IpLookupController.cs
-│   │   ├── IpBlockController.cs
-│   │   └── LogsController.cs
-│   ├── Middleware/                # Custom middleware
-│   │   └── ErrorHandlerMiddleware.cs
-│   ├── BackgroundJobs/
-│   │   └── TemporaryBlockCleanupJob.cs
-│   ├── appsettings.json
-│   └── Program.cs
-│
-└── 🧪 IPCountryBlocker.Test/
-    ├── Controllers/               # Controller tests
-    ├── Services/                  # Service tests
-    ├── Validators/                # Validation tests
-    ├── Fixtures/                  # Test fixtures
-    └── Helpers/                   # Test utilities
+└── 🌐 IPCountryBlocker.API/
+    ├── Controllers/               # REST API endpoints
+    │   ├── CountriesController.cs
+    │   ├── IpLookupController.cs
+    │   ├── IpBlockController.cs
+    │   └── LogsController.cs
+    ├── Middleware/                # Custom middleware
+    │   └── ErrorHandlerMiddleware.cs
+    ├── BackgroundJobs/
+    │   └── TemporaryBlockCleanupJob.cs
+    ├── appsettings.json
+    └── Program.cs
 ```
 
 ### 🎨 Design Patterns
@@ -229,14 +222,6 @@ IPCountryBlocker/
 |---------|---------|------|
 | **ipapi.co** | IP geolocation (free tier) | [Docs](https://ipapi.co/) |
 | **IPGeolocation.io** | IP geolocation (primary) | [Docs](https://ipgeolocation.io/) |
-
-### Development & Testing
-| Technology | Purpose |
-|-----------|---------|
-| **xUnit** | Unit testing framework |
-| **Moq** | Mocking framework |
-| **FluentAssertions** | Readable test assertions |
-| **Swagger/Swashbuckle** | API documentation |
 
 ---
 
@@ -632,22 +617,6 @@ dotnet test
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 ```
 
-### Test Structure
-
-```
-IPCountryBlocker.Test/
-├── Controllers/
-│   ├── CountriesControllerTests.cs       # 8 tests
-│   ├── IpLookupControllerTests.cs        # 5 tests
-│   └── LogsControllerTests.cs            # 4 tests
-├── Services/
-│   ├── CountryServiceTests.cs            # 6 tests
-│   └── IpLookupServiceTests.cs           # 5 tests
-└── Validators/
-    └── BlockCountryValidatorTests.cs     # 4 tests
-```
-
-**Total Coverage: 32 unit tests**
 
 ---
 
@@ -802,32 +771,10 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- [ipapi.co](https://ipapi.co/) - Free IP geolocation service
-- [IPGeolocation.io](https://ipgeolocation.io/) - Comprehensive IP data
-- [Hangfire](https://www.hangfire.io/) - Background job processing
-- [Redis](https://redis.io/) - In-memory data structure store
-
----
-
-## 📞 Support
-
-- **Documentation**: [Wiki](https://github.com/yourusername/IPCountryBlocker/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/IPCountryBlocker/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/IPCountryBlocker/discussions)
-
----
 
 <div align="center">
 
-**Made with ❤️ by [Your Name](https://github.com/yourusername)**
+**Made with ❤️ by Mohamed Hany (https://github.com/Mo7hamedHany)**
 
 ⭐ Star this repo if you find it helpful!
 
