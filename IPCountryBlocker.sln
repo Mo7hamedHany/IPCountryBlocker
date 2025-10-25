@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCountryBlocker.Domain", "IPCountryBlocker.Domain\IPCountryBlocker.Domain.csproj", "{56026B6D-8E27-BD9D-0D88-01A7F888DDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCountryBlocker.Infrastructure", "IPCountryBlocker.Infrastructure\IPCountryBlocker.Infrastructure.csproj", "{71E1E02E-BDF1-9FF7-6CB3-D3790B7E0327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCountryBlocker.Service", "IPCountryBlocker.Service\IPCountryBlocker.Service.csproj", "{598C8CB7-3C97-9496-144D-0B31844D83D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCountryBlocker.Application", "IPCountryBlocker.Application\IPCountryBlocker.Application.csproj", "{857A6391-62CF-63EA-98FE-49807D2DF285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCountryBlocker.API", "IPCountryBlocker.API\IPCountryBlocker.API.csproj", "{54A8949C-BC99-C508-EACA-B49E6DC5693E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56026B6D-8E27-BD9D-0D88-01A7F888DDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56026B6D-8E27-BD9D-0D88-01A7F888DDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56026B6D-8E27-BD9D-0D88-01A7F888DDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56026B6D-8E27-BD9D-0D88-01A7F888DDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E1E02E-BDF1-9FF7-6CB3-D3790B7E0327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E1E02E-BDF1-9FF7-6CB3-D3790B7E0327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E1E02E-BDF1-9FF7-6CB3-D3790B7E0327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E1E02E-BDF1-9FF7-6CB3-D3790B7E0327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598C8CB7-3C97-9496-144D-0B31844D83D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598C8CB7-3C97-9496-144D-0B31844D83D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598C8CB7-3C97-9496-144D-0B31844D83D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598C8CB7-3C97-9496-144D-0B31844D83D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857A6391-62CF-63EA-98FE-49807D2DF285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857A6391-62CF-63EA-98FE-49807D2DF285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857A6391-62CF-63EA-98FE-49807D2DF285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857A6391-62CF-63EA-98FE-49807D2DF285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A8949C-BC99-C508-EACA-B49E6DC5693E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A8949C-BC99-C508-EACA-B49E6DC5693E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A8949C-BC99-C508-EACA-B49E6DC5693E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A8949C-BC99-C508-EACA-B49E6DC5693E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B52625D-B51C-4A17-A09A-BCFEA6ED8DE4}
+	EndGlobalSection
+EndGlobal
