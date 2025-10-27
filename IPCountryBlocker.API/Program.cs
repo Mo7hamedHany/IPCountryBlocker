@@ -1,3 +1,4 @@
+using FastEndpoints;
 using Hangfire;
 using IPCountryBlocker.Application;
 using IPCountryBlocker.Application.Middleware;
@@ -18,6 +19,8 @@ namespace IPCountryBlocker.API
 
             // Add services to the container.
             builder.Services.AddControllers();
+
+            builder.Services.AddFastEndpoints();
 
             builder.Services.AddInfrastructureDependencies(builder.Configuration);
             builder.Services.AddServiceDependencies(builder.Configuration);
@@ -74,6 +77,8 @@ namespace IPCountryBlocker.API
             app.UseAuthentication();
 
             app.UseAuthorization();
+
+            app.UseFastEndpoints();
 
             app.UseHangfireDashboard("/hangfire");
 

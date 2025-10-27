@@ -20,6 +20,11 @@ namespace IPCountryBlocker.Infrastructure
 
             services.AddScoped<ICountryRepository, CountryRepository>();
             services.AddScoped<IBlockedAttemptRepository, BlockedAttemptRepository>();
+            services.AddScoped<IAreaRepository, AreaRepository>();
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<IClassRepository, ClassRepository>();
+            services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
+            services.AddScoped<IMarkRepository, MarkRepository>();
 
             return services;
         }

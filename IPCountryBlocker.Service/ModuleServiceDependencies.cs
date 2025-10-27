@@ -14,6 +14,10 @@ namespace IPCountryBlocker.Service
         {
             services.AddScoped<ICountryService, CountryService>();
             services.AddScoped<ILoggingService, LoggingService>();
+            services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<IClassService, ClassService>();
+            services.AddScoped<IEnrollmentService, EnrollmentService>();
+            services.AddScoped<IMarkService, MarkService>();
             services.AddHttpClient<IIpGeolocationService, IpGeolocationService>()
                 .ConfigureHttpClient(client =>
                 {
